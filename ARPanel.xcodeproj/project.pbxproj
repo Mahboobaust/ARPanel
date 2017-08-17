@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1461D91F440FC8004AA574 /* radio_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1461D71F440FC8004AA574 /* radio_normal.png */; };
+		2C1461DA1F440FC8004AA574 /* radio_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1461D81F440FC8004AA574 /* radio_selected.png */; };
+		2C1461E61F4441E9004AA574 /* APICommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1461DE1F4441E9004AA574 /* APICommunicator.m */; };
+		2C1461E71F4441E9004AA574 /* AsyncPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1461E01F4441E9004AA574 /* AsyncPost.m */; };
+		2C1461E81F4441E9004AA574 /* CheckInternetConnectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1461E21F4441E9004AA574 /* CheckInternetConnectivity.m */; };
+		2C1461EB1F444234004AA574 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1461EA1F444234004AA574 /* Reachability.m */; };
 		2C6AD1741F39DA98002E737B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6AD1731F39DA98002E737B /* main.m */; };
 		2C6AD1771F39DA99002E737B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6AD1761F39DA99002E737B /* AppDelegate.m */; };
 		2C6AD17A1F39DA99002E737B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6AD1791F39DA99002E737B /* ViewController.m */; };
 		2C6AD17D1F39DA99002E737B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6AD17B1F39DA99002E737B /* Main.storyboard */; };
 		2C6AD17F1F39DA99002E737B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6AD17E1F39DA99002E737B /* Assets.xcassets */; };
 		2C6AD1821F39DA99002E737B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6AD1801F39DA99002E737B /* LaunchScreen.storyboard */; };
+		2C7086FD1F447A6300BBA7C4 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C7086FC1F447A6300BBA7C4 /* splash.png */; };
+		2CC068FC1F459D0300104423 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC068F81F459D0300104423 /* SVIndefiniteAnimatedView.m */; };
+		2CC068FD1F459D0300104423 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2CC068F91F459D0300104423 /* SVProgressHUD.bundle */; };
+		2CC068FE1F459D0300104423 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC068FB1F459D0300104423 /* SVProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C1461D71F440FC8004AA574 /* radio_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_normal.png; sourceTree = "<group>"; };
+		2C1461D81F440FC8004AA574 /* radio_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_selected.png; sourceTree = "<group>"; };
+		2C1461DB1F442A20004AA574 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		2C1461DD1F4441E9004AA574 /* APICommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APICommunicator.h; sourceTree = "<group>"; };
+		2C1461DE1F4441E9004AA574 /* APICommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APICommunicator.m; sourceTree = "<group>"; };
+		2C1461DF1F4441E9004AA574 /* AsyncPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncPost.h; sourceTree = "<group>"; };
+		2C1461E01F4441E9004AA574 /* AsyncPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncPost.m; sourceTree = "<group>"; };
+		2C1461E11F4441E9004AA574 /* CheckInternetConnectivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInternetConnectivity.h; sourceTree = "<group>"; };
+		2C1461E21F4441E9004AA574 /* CheckInternetConnectivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInternetConnectivity.m; sourceTree = "<group>"; };
+		2C1461E31F4441E9004AA574 /* NODEURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NODEURL.h; sourceTree = "<group>"; };
+		2C1461E41F4441E9004AA574 /* NSStrinAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStrinAdditions.h; sourceTree = "<group>"; };
+		2C1461E51F4441E9004AA574 /* URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URL.h; sourceTree = "<group>"; };
+		2C1461E91F444234004AA574 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		2C1461EA1F444234004AA574 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		2C6AD16F1F39DA98002E737B /* ARPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6AD1731F39DA98002E737B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C6AD1751F39DA98002E737B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +50,12 @@
 		2C6AD17E1F39DA99002E737B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C6AD1811F39DA99002E737B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C6AD1831F39DA99002E737B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C7086FC1F447A6300BBA7C4 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		2CC068F71F459D0300104423 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		2CC068F81F459D0300104423 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		2CC068F91F459D0300104423 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		2CC068FA1F459D0300104423 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		2CC068FB1F459D0300104423 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +69,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C1461D61F440FC8004AA574 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				2C7086FC1F447A6300BBA7C4 /* splash.png */,
+				2C1461D71F440FC8004AA574 /* radio_normal.png */,
+				2C1461D81F440FC8004AA574 /* radio_selected.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		2C1461DC1F4441E9004AA574 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				2C1461E91F444234004AA574 /* Reachability.h */,
+				2C1461EA1F444234004AA574 /* Reachability.m */,
+				2C1461DD1F4441E9004AA574 /* APICommunicator.h */,
+				2C1461DE1F4441E9004AA574 /* APICommunicator.m */,
+				2C1461DF1F4441E9004AA574 /* AsyncPost.h */,
+				2C1461E01F4441E9004AA574 /* AsyncPost.m */,
+				2C1461E11F4441E9004AA574 /* CheckInternetConnectivity.h */,
+				2C1461E21F4441E9004AA574 /* CheckInternetConnectivity.m */,
+				2C1461E31F4441E9004AA574 /* NODEURL.h */,
+				2C1461E41F4441E9004AA574 /* NSStrinAdditions.h */,
+				2C1461E51F4441E9004AA574 /* URL.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		2C6AD1661F39DA97002E737B = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +116,9 @@
 		2C6AD1711F39DA98002E737B /* ARPanel */ = {
 			isa = PBXGroup;
 			children = (
+				2CC068F61F459D0300104423 /* SVProgressHUD */,
+				2C1461DC1F4441E9004AA574 /* API */,
+				2C1461DB1F442A20004AA574 /* Define.h */,
 				2C6AD1751F39DA98002E737B /* AppDelegate.h */,
 				2C6AD1761F39DA99002E737B /* AppDelegate.m */,
 				2C6AD1781F39DA99002E737B /* ViewController.h */,
@@ -74,9 +135,22 @@
 		2C6AD1721F39DA98002E737B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2C1461D61F440FC8004AA574 /* Image */,
 				2C6AD1731F39DA98002E737B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CC068F61F459D0300104423 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				2CC068F71F459D0300104423 /* SVIndefiniteAnimatedView.h */,
+				2CC068F81F459D0300104423 /* SVIndefiniteAnimatedView.m */,
+				2CC068F91F459D0300104423 /* SVProgressHUD.bundle */,
+				2CC068FA1F459D0300104423 /* SVProgressHUD.h */,
+				2CC068FB1F459D0300104423 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +210,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC068FD1F459D0300104423 /* SVProgressHUD.bundle in Resources */,
 				2C6AD1821F39DA99002E737B /* LaunchScreen.storyboard in Resources */,
 				2C6AD17F1F39DA99002E737B /* Assets.xcassets in Resources */,
+				2C1461DA1F440FC8004AA574 /* radio_selected.png in Resources */,
+				2C1461D91F440FC8004AA574 /* radio_normal.png in Resources */,
+				2C7086FD1F447A6300BBA7C4 /* splash.png in Resources */,
 				2C6AD17D1F39DA99002E737B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,8 +228,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C6AD17A1F39DA99002E737B /* ViewController.m in Sources */,
+				2C1461E71F4441E9004AA574 /* AsyncPost.m in Sources */,
 				2C6AD1771F39DA99002E737B /* AppDelegate.m in Sources */,
+				2CC068FC1F459D0300104423 /* SVIndefiniteAnimatedView.m in Sources */,
+				2C1461EB1F444234004AA574 /* Reachability.m in Sources */,
+				2CC068FE1F459D0300104423 /* SVProgressHUD.m in Sources */,
 				2C6AD1741F39DA98002E737B /* main.m in Sources */,
+				2C1461E81F4441E9004AA574 /* CheckInternetConnectivity.m in Sources */,
+				2C1461E61F4441E9004AA574 /* APICommunicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +347,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Niaz Khan (K4RHMFEJAA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Niaz Khan (K4RHMFEJAA)";
 				INFOPLIST_FILE = ARPanel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ARPanel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.empiregroup.ARPanel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b7429c71-9dc3-4c7f-b223-e0c127f3c167";
 			};
 			name = Debug;
 		};
@@ -274,10 +362,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Niaz Khan (K4RHMFEJAA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Niaz Khan (K4RHMFEJAA)";
 				INFOPLIST_FILE = ARPanel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ARPanel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.empiregroup.ARPanel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b7429c71-9dc3-4c7f-b223-e0c127f3c167";
 			};
 			name = Release;
 		};
@@ -300,6 +392,7 @@
 				2C6AD1881F39DA99002E737B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
